@@ -70,9 +70,30 @@ body {
 .hero h1 {
   max-width: 900px;
   margin: 0 auto;
-  font-size: clamp(40px, 6vw, 72px);
-  line-height: 1;
-  letter-spacing: -0.05em;
+  font-size: clamp(32px, 4.5vw, 52px);
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+}
+
+.paper-heading {
+  margin-bottom: 48px;
+  padding-bottom: 36px;
+  border-bottom: 1px solid var(--line);
+}
+
+.hero .paper-authors {
+  max-width: 860px;
+  margin: 24px auto 0;
+  font-size: clamp(16px, 2vw, 19px);
+  line-height: 1.8;
+  color: var(--muted);
+}
+
+.hero-question {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: clamp(28px, 4vw, 42px);
+  line-height: 1.15;
 }
 
 .hero p {
