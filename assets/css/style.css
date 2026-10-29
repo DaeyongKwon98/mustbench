@@ -86,7 +86,7 @@ body {
   margin: 24px auto 0;
   font-size: clamp(16px, 2vw, 19px);
   line-height: 1.8;
-  color: var(--muted);
+  color: #000000;
 }
 
 .hero .paper-affiliations {
