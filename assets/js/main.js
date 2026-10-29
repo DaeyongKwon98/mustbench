@@ -449,6 +449,7 @@ function getModelTypeClass(type) {
 }
 
 function formatScore(value) {
+  if (value === null || value === undefined) return "—";
   if (value === null || value === undefined || value === "--") {
     return "-";
   }
